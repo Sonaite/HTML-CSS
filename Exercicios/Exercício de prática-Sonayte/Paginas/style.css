@@ -1,0 +1,25 @@
+body{
+    background-color:white;
+    h1{
+        color: #6f4fbb;
+        background-color:#bdb65a73 ;
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        color: #807A26;
+    }
+    h3{
+        color: #266780;
+    }
+    ul{
+        color: #807A26;
+        font-size: 15px;
+
+    }
+    .marcado{
+        background-color: #4B8CAD;
+    }
+  
+}

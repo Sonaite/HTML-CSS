@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando</title>
+</head>
+<style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*sesão de rolagem da barra fixada*/
+        html {
+    scroll-behavior: smooth; /* Isso ativa a rolagem suave */
+}
+
+.barra-inferior p a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #a7b496; /* Cor do texto do link */
+}
+
+.barra-inferior p a:hover {
+    color: #3fd358; /* Altera a cor do link ao passar o mouse */
+}
+
+    
+
+
+    div{
+        background-color: #4e2e5c;
+        height: 60px; 
+        display: flex;
+       
+
+        }
+        .barra-superior {
+           
+            position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Defina a altura correta */
+    background-color: #4e2e5c;
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+           
+          
+        }
+        body {
+    padding-top: 100px; /* Mesmo valor da altura da barra */
+    background-color: #4e2e5c;
+}
+        .barra-superior p {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: #000000;
+            font-weight: bold;
+        }
+     
+      
+    
+        .barra-inferior{
+           
+            position: fixed;
+    top: 60px; /* Logo abaixo da barra superior */
+    left: 0;
+    width: 100%;
+    height: 20px; /* Ajuste conforme necessário */
+    background-color: #2e2233;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-weight: bold;
+}
+      
+            
+           
+
+            
+          
+        
+        .barra-inferior p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-right: 30px;
+            color: #a7b496;
+            margin-left: 15px;
+            
+        }
+        .barra-lateral{
+            background-color:#4e2e5c;
+         
+            position: absolute; /* Fixa a barra na tela */
+           right: 0; /* Fixa do lado direito */
+           top: 60; /* Garante que a barra comece do topo */
+           
+       
+         height: 230px; /* 100% da altura da tela */
+        width: 55px; /* Largura da barra lateral */
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+
+        }
+        .barra-lateral img{
+            width: 30px;
+            height: auto;
+            margin-top: 15px;
+           
+           
+           
+        }
+        .barra-central{
+            background-color: #e8efe0;
+            height: 170px;
+            width: 100%;
+            
+           
+            margin-top: 30px;
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .barra-central h1 {
+          font-family: Arial, Helvetica, sans-serif;
+          color: #66242b;
+          font-size: 30px;
+
+        
+        
+         
+         
+        }
+        .barra-inferior-central{
+            background-color: #4e2e5c;
+            height: 600px;
+            flex-direction: column;
+            position: relative;
+            
+        }
+        .barra-inferior-central h2{
+            margin-top: 20px;
+            color: #a7b496;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        
+        .barra-inferior-central img{
+            position: absolute; /* Posiciona em relação à div pai */
+            left: 20px; /* Define um espaço da borda esquerda */
+            top: 50px; /* Define um espaço do topo */
+            width:400px; 
+            height:500px ;
+          
+    border: 4px solid black;
+    box-shadow:   5px 9px 10px rgb(0, 0, 0);
+    
+  
+            
+        }
+        .meusProjetos {
+    background-color: white;
+    display: flex;
+    height: 500px;
+    position: relative;
+    justify-content: flex-start; /* Alinha as imagens à esquerda */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    padding: 0 20px; /* Adiciona espaço à esquerda e direita */
+}
+
+.meusProjetos h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #66242b;
+    margin-bottom: 20px; /* Adiciona espaço entre o título e as imagens */
+    position: absolute;
+    top: 20px; /* Coloca o título um pouco abaixo do topo */
+    left: 50%; /* Centraliza o título horizontalmente */
+    transform: translateX(-50%); /* Ajusta para centralizar o título */
+}
+
+.meusProjetos img {
+    margin-top: 40px;
+    margin-right: 20px; /* Espaço entre as imagens */
+}
+
+      
+
+       
+     
+      
+      
+
+
+
+
+
+
+
+
+   
+</style>
+<body>
+   
+    
+    <div class="barra-superior">
+        <p>Sonayte deveworks</p>
+
+    </div>
+
+    <div class="barra-inferior">
+        <p> Sobre mim </p>
+        <p><a href="#meusProjetosIniciais">Meus Projetos Iniciais</a></p> <!-- Link para a seção -->
+        <p>Hobbes</p>
+        <p>Motivação de carreira</p>
+       
+    </div>
+
+    <div class="barra-lateral">
+
+        <a href="https://instagram.com/sonayte_"> <img src="icones/insta.png" alt="icone instagram"></a>
+
+        <a href="https://github.com/sonaite"> <img src="icones/git.png" alt="icone github"></a>
+
+        <a href="https://wa.me/5579998278468"> <img src="icones/wts.png" alt="icone zap"></a>
+
+    </div>
+
+    <div class="barra-central">
+        <h1>"Pois eu sou o Senhor, o teu Deus, que te segura pela mão <br>direita e te diz: Não temas, eu te ajudarei."
+            <br> - Isaías 41:13 
+    
+
+    </h1>
+
+    </div>
+
+    <div class="barra-inferior-central">
+       
+
+        <h2>Conheça meu livro- Tragetória da vida, uma história que Deus escreve!</h2>
+
+        <img src="imagem/Captura de tela 2025-02-14 155200.png" alt="livro">
+
+       
+    
+      </div>
+    
+       <div id="meusProjetosIniciais" class="meusProjetos">
+        <h2>Meus projetos iniciais</h2>
+
+        <img src="imagem/Captura de tela 2025-02-15 175121.png" alt="tela de cadastro">
+        <img src="imagem/Captura de tela 2025-02-15 175147.png" alt="tela de sucesso">
+
+
+       </div>
+
+
+
+     
+   
+
+</body>
+</html>

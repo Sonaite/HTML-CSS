@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*
+tudo que em html é id = em cc é #
+tudo que em html é class = em css é .
+id é unico , class pode ser muitos*/
+
+body{
+    background-color: rgb(92, 148, 212);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: blueviolet;
+}
+h1#principal{
+    text-align: center;
+    background-color: black;
+}
+h2{
+
+    color: blueviolet;
+}
+.intermediario{
+    color: bisque;
+}
+.avancado{
+    color: brown;
+}

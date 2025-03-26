@@ -1,0 +1,59 @@
+body{
+    background-color:#84e1ac6e ;
+    margin: 0;
+
+}
+header{
+    background-color: #84e1ac6e;
+    background: linear-gradient(to bottom, #84e1ac 5%, #1a472e 100%);
+  
+    padding: 12px;
+    text-align: center;
+  
+
+    
+}
+header > #menu{
+    text-align: left;
+   
+
+}
+
+
+#menu a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+main{
+    background-color: white;
+    width: 80%; /* Defina a largura conforme necessário */
+    max-width: 900px; /* Para evitar que fique muito largo em telas grandes */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona um espaçamento interno */
+  
+   
+    
+ 
+}
+
+
+footer{
+    
+    background-color: #1a472e;  
+    text-align: center;
+   
+
+  }
+  footer p{
+        color: white;
+        margin: auto;
+        padding: 5px;
+       
+        
+
+  }
+

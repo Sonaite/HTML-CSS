@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+        html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave */
+}
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            
+            
+        }
+
+        header{
+            background-color: rgb(71, 47, 94);
+            color: white;
+           text-align: center;
+           padding: 7px 0;
+         
+         
+        }
+        header h1{
+            padding: 3px 0;
+            margin: 0;
+           font-size: 17px;
+           
+        }
+        #navCabesalho{
+         
+            background-color: rgb(22, 5, 44);
+            padding: 9px 9px 1px 15px;
+           
+          
+          
+        }
+        #navCabesalho a{
+            color: antiquewhite;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 10px;
+          
+            
+
+        }
+        #navCabesalho a:hover{
+            color: rgb(204, 98, 169);
+        }
+        section #frase{
+            background-color: rgba(202, 187, 169, 0.603);
+            margin: 0 50px;
+            text-align:center;
+            border-radius: 15px;
+            padding: 6px 0;
+            margin-top: 30px;
+            outline:4px dashed black;
+        }
+        #sobreMim{
+            background-color: rgba(94, 90, 90, 0.904);
+            color: white;
+            margin-top: 30px;
+          
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            border-radius: 13px;
+            box-shadow: 7px 4px 3px rgba(0, 0, 0, 0.822);
+           
+            
+        }
+        #sobreMim p{
+            font-family:Arial, Helvetica, sans-serif;
+           
+            padding: 5px 0 0 15px;
+            font-size: 14px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+        #sobreMim img{
+            width: 100px;
+            height:auto;
+            border-radius:50px;
+            
+            
+
+        }
+     
+       
+
+         #contato{
+            
+            margin: 30px 0 0 25px;
+            font-weight: bold;
+            
+        }
+
+      
+        #contato a img {
+        width: 40px;  /* Ajuste o tamanho conforme necessário */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-right: 15px;
+        transition: transform 0.3s ease; /* Transição suave */
+                }
+                #navContato a:hover img {
+                
+    transform: scale(1.2); /* Aumenta 20% ao passar o mouse */    
+   
+    }
+
+          
+           
+        
+        footer{
+            background-color: black;
+            color: antiquewhite;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>sonayte devworks</h1>
+
+    </header>
+
+    <main>
+        <nav id="navCabesalho">
+            <a href="#">Sobre mim</a>
+            <a href="#sobreMim">Hobees</a>
+            <a href="#">Motivação de carreira</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <section >
+        
+
+            <article id="frase">
+                <p>Nada é difícil, tudo se torna fácil quando se aprende!</p>
+
+                <aside>
+                    <p>Escrito por sonayte santos</p>
+                </aside>
+            </article>
+        </section>
+
+        <section id="sobreMim">
+           
+
+            <p>Sobre mim</p>
+
+            <img src="icones/sol.jpg" alt="myfot">
+            
+            <p>Sou Sonaite , estudante de Sistemas de Informação , apaixonado por tecnologia e desenvolvimento de software. Sempre busco aprender e melhorar, especialmente em áreas como qualidade de software e código aberto .<br>
+                <br>
+                            
+             Como cristão, acredito que minha fé é essencial para manter o equilíbrio e focar em todos os aspectos da minha vida. Estou sempre em busca de novos desafios e oportunidades para crescer e impactar positivamente o mundo ao meu redor.</p>
+
+            
+            
+
+        </section>
+
+    
+
+        <section id="contato">
+
+            <p>Informações de contato</p>
+           <nav id="navContato">
+            <a href="https://instagram.com/sonayte_" target="_blank"> <img src="icones/insta.png" alt="instagram"></a>
+                <a href="https://wa.me/5579998278468 " target="_blank"> <img src="icones/wts.png" alt="zap"></a>
+                    <a href="https:/github.com/sonaite" target="_blank"><img src="icones/git.png" alt="git"></a>
+           </nav>
+        </section>
+       
+
+    </main>
+
+    <footer>
+           <p>Desenvolvido por sonayte devworks</p>
+    </footer>
+    
+</body>
+</html>

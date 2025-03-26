@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de houver</title>
+
+    <style>
+        div:hover{
+            color: blueviolet;
+
+        }
+        div > p {
+            display: none;
+
+        }
+        div:hover > p {
+            display: block;
+            color: aqua;
+        }
+        .ocuto:hover{
+            color: brown;
+        }
+        
+        .ocuto > p{
+            display: none;
+        }
+        .ocuto:hover >p{
+            display: block;
+            color: chartreuse;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mause sobre o texto abaixo</p>
+
+    <div>
+        Passe o mause aqui
+        <p>texto oculto...</p>
+
+    </div>
+
+
+    <div>fim do exemplo</div>
+
+    <h2>Outro exemplo</h2>
+
+    <div class="ocuto">
+        PASSE O mause
+        <p>TESTO OCULTADO</p>
+    </div>
+    
+</body>
+</html>
