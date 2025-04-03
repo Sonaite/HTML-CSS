@@ -14,22 +14,39 @@
            
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(53, 50, 50);
+        }
+        caption{
+             background-color: rgba(128, 128, 128, 0.664);
+             padding: 10px;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
         thead{
-            background-color: gray;
+            background-color: rgb(53, 50, 50);
             color: white;
         }
-        td.nuem ro{
+        td.nuemro{
             text-align: right;
         }
         tfoot{
-            background-color: gray;
+            background-color: rgb(59, 58, 58);
             color: white;
         }
+        tbody > tr:nth-child(even){
+            background-color: gray;
+
+        }
+
+      
     </style>
 </head>
 <body>
@@ -38,10 +55,11 @@
     -->
 
     <table>
+        <caption>População das unidades Federais</caption>
         <thead>
           <tr>
-             <th>Estado</th>
-             <th>População</th>
+             <th scope="col">Estado</th>
+             <th scope="col" style="width: 40px;">População</th>
           </tr>
         </thead>
 
@@ -124,13 +142,92 @@
     <td class="nuemro">15 435 273</td>
    </tr>
 
+   <tr>
+    <td>São paulo</td>
+    <td class="nuemro">49 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Minas gerais</td>
+    <td class="nuemro">21 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Rio de Janeiro</td>
+    <td class="nuemro">20 435 273</td>
+   </tr>
+
+   <tr>
+    <td>bahia</td>
+    <td class="nuemro">19 435 273</td>
+   </tr>
+   <tr>
+
+    <td>Paraná</td>
+    <td class="nuemro">18 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Santa cataria</td>
+    <td class="nuemro">18 435 273</td>
+   </tr>
+   <tr>
+    <td>Mato grosso</td>
+    <td class="nuemro">16 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Sergipe</td>
+    <td class="nuemro">15 435 273</td>
+   </tr>
+
+   <tr>
+    <td>São paulo</td>
+    <td class="nuemro">49 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Minas gerais</td>
+    <td class="nuemro">21 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Rio de Janeiro</td>
+    <td class="nuemro">20 435 273</td>
+   </tr>
+
+   <tr>
+    <td>bahia</td>
+    <td class="nuemro">19 435 273</td>
+   </tr>
+   <tr>
+
+    <td>Paraná</td>
+    <td class="nuemro">18 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Santa cataria</td>
+    <td class="nuemro">18 435 273</td>
+   </tr>
+   <tr>
+    <td>Mato grosso</td>
+    <td class="nuemro">16 435 273</td>
+   </tr>
+
+   <tr>
+    <td>Sergipe</td>
+    <td class="nuemro">15 435 273</td>
+   </tr>
+
+
    
 
    
         </tbody>
 
         <tfoot>
-               <th>Total de Habitantes</th>
+               <th scope="row">Total de Habitantes</th>
                <td class="nuemro"><strong>987.6345</strong></td>
         </tfoot>
     </table>
