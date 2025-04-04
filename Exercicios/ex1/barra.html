@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+    
+       img{
+        width: 40px;
+           cursor: pointer;
+           position: fixed;
+           right: 10px;
+           top: 20px;
+       }
+
+       /* Barra Lateral */
+       .sidebar {
+           width: 200px;
+           height: 100vh;
+           background-color: brown;
+           position: fixed;
+           top: 0;
+           right: -200px; /* Escondida inicialmente */
+           transition: right 0.3s ease-in-out;
+       }
+       /* Classe para mostrar a barra */
+       .show-sidebar {
+           right: 0;
+       }
+
+       .container{
+       
+        display: flex; /* Faz os filhos ficarem lado a lado */
+        gap: 10px;
+        
+        
+       }
+       .caixa{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        
+
+       
+       }
+       
+
+    </style>
+</head>
+<body>
+
+    <!-- Ícone (AGORA COM ID CORRETO) -->
+    <img src="7196736.webp" alt="img" id="configIcon">
+
+   <!-- Barra Lateral -->
+   <div class="sidebar" id="sidebar"></div>
+
+   <div class="container">
+    <div class="caixa"></div>
+    <div class="caixa"></div>
+   </div>
+   
+
+   <script>
+    const configIcon = document.getElementById("configIcon");
+    const sidebar = document.getElementById("sidebar");
+
+    // Alternar a barra lateral ao clicar no ícone
+    configIcon.addEventListener("click", () => {
+        sidebar.classList.toggle("show-sidebar");
+    });
+
+    
+       // Fechar a barra ao clicar fora dela
+       document.addEventListener("click", (event) => {
+           if (!sidebar.contains(event.target) && event.target !== configIcon) {
+               sidebar.classList.remove("show-sidebar");
+           }
+       });
+</script>
+    
+</body>
+</html>
