@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formula´rio</title>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <forme>
+        <fieldset>
+            <legend>Agendamento de consulta voluntário</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="10">
+            </p>
+            <p>
+                <label for="iemal">Email</label>
+                <input type="email" name="email" id="imail" required>
+            </p>
+            <p>
+                    <!--Estudar mais sobre expressões regulares(regEx)-->
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required>
+            
+            </p>
+            <p>
+                <label for="idata">Escolha a data:</label>
+                <input type="date" name="data" id="idata" required>
+            </p>
+            <p>
+                <label for="ihorario">Escolha o horário: </label>
+                 <input type="time" name="horario" id="ihorario" required>
+            </p>
+            
+            <p>
+            
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
+       
+    </forme>
+    
+</body>
+</html>

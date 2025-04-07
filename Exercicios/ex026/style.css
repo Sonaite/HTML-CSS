@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background: white url(imagem/students-1807505_1920.jpg) bottom center no-repeat;
+    overflow-x: hidden; /* impede scroll lateral */
+}
+
+main {
+    max-width: 90%; /* adapta a largura em telas pequenas */
+    width: 730px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* correção aqui (tinha faltado vírgula) */
+}
+
+.campos {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%; /* para acompanhar o .campos */
+    border: none;
+    outline: none; /* tira a borda  quando clica */
+    
+}
+
+
+legend {
+    color: white;
+}
+
+fieldset {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(5, 46, 32, 0.678);
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+p.esqueceu{
+    
+    
+    margin-top: 5px;
+    text-align: right;
+    color: aliceblue;
+   
+     
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* deixa o texto do placeholder branco */
+    font-size: 1.3em; /* aumenta o tamanho da fonte */
+  
+}
+
+
+
+a:hover{
+    color: green;
+}
+button{
+    display: block;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+  background-color: rgba(0, 128, 0, 0.411);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.527);
+}
+
+input[type="submit"] {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+
+
+
