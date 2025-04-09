@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.java" method="get" autocomplete="on">
+
+         
+         <label for="iestado">Estado:</label>
+         <select name="estado" id="iestado">
+          
+            <optgroup label="Região sudeste">
+                <option value="" selected>--Escolha--</option>
+                <option value="SP">São paulo</option>
+                <option value="RJ">Rio de Ganeiro</option>
+                <option value="MG">Minas gerais</option>
+            </optgroup>
+                <optgroup label="Região Nordeste">
+    
+                <option value="SE">sergipe</option>
+                <option value="PE">Pernabuco</option>
+                <option value="RN">Rio garnde do norte</option>
+                </optgroup>
+         </select>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+        <p>
+            <label for="iprof">profissão:</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option >Desenvoldevor web</option>
+
+                <option >Analista de Sistema</option>
+
+                <option value="">Professor(a)</option>
+                <option >Engenheiro</option>
+            </datalist>
+        </p>
+
+        <P>
+           <label for="imsg">mensagem</label> <br>
+           
+        <textarea name="mensagem" id="imsg" cols="40" rows="3" placeholder="sua mensagem..."></textarea>
+        </P>
+    </form>
+    
+</body>
+</html>
