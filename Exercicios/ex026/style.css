@@ -68,7 +68,7 @@ p a{
 }
 input::placeholder {
     color: rgba(255, 255, 255, 0.5); /* deixa o texto do placeholder branco */
-    font-size: 1.3em; /* aumenta o tamanho da fonte */
+  
   
 }
 
@@ -92,7 +92,15 @@ input[type="submit"] {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     padding: 5px;
+    font-weight: bold;
 }
+.email,.senha{
+   
+    color: white;
+    font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 
