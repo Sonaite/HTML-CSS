@@ -11,10 +11,10 @@
 <body>
     <header>
         <h1>CursosTec</h1>
-        <span class="material-symbols-outlined">
+        <span id="burguer"  class="material-symbols-outlined" onclick="clikMenu()">
             list
             </span>
-         <menu>
+         <menu id="list">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">cursos</a></li>
@@ -36,6 +36,18 @@
         </section>
       
     </main>
+
+    <script>
+         function clikMenu(){
+           if( list.style.display == 'block'){
+            list.style.display = 'none'
+           }else{
+            list.style.display = 'block';
+           }
+
+
+        }
+    </script>
     
 </body>
 </html>
