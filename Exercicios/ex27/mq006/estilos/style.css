@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*configuração para celulares*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #d6d1d1;
+    height: 100vh;
+    position: relative;
+   
+  
+}
+
+header{
+    background-color: rgba(2, 29, 2, 0.973);
+
+}
+header h1{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 5px 8px black;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+
+span{
+   color: white;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   
+  
+}
+menu{
+    text-align: center;
+}
+menu > ul > li> a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.089);
+}
+menu > ul > li> a:hover{
+    background-color: rgba(3, 65, 3, 0.411);
+}
+
+
+section.imagem{
+   
+}
+section p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centraliza perfeitamente */
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    color: white;
+    font-size: 1.8em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 90%;
+    text-align: center;
+
+}
+
+
+
+section#img{
+   
+  
+    background-repeat: no-repeat;
+    
+    background-image: url(../imagens/paracllpq.jpg);
+    background-size: contain;
+    background-position: right center;
+    background-attachment: scroll;
+    height: 600px;
+    
+  
+  
+   
+
+}
+main{
+    position: relative;
+   
+}
