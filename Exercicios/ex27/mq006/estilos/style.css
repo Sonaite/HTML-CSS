@@ -124,23 +124,28 @@ section.imagem{
 
 
     section#img{
-   
-  
         background-repeat: no-repeat;
-        
         background-image: url(../imagens/woman-5653501_1280.jpg);
         background-size:cover;
         background-position: right top;
         background-attachment: scroll;
-       
-       
-       
-       
-
         height: 300px;
         position: relative;
-        
+    }
+    section#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 colunas iguais */
+        gap: 10px; /* espaço entre os botões */
+        padding: 10px;
+    }
 
+    section#cursos button{
+        
+        margin-top: 20px;
+        background-color:  rgb(20, 37, 27);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
     }
 
 
