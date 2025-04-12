@@ -132,13 +132,14 @@ section.imagem{
         height: 300px;
         position: relative;
     }
-    section#cursos{
+    section#cursos {
         display: grid;
         grid-template-columns: 1fr 1fr; /* 2 colunas iguais */
-        gap: 10px; /* espaço entre os botões */
+      
         padding: 10px;
+        justify-items: center; 
     }
-
+    
     section#cursos button{
         
         margin-top: 20px;
@@ -146,7 +147,40 @@ section.imagem{
         padding: 10px;
         color: white;
         border-radius: 10px;
+        text-transform: uppercase;
+        width: 180px;
+
     }
+    /*cores dos nomes dos botoes*/
+    section#cursos button.um{
+        color: rgb(199, 250, 13);
+
+    }
+    section#cursos button.dois{
+        color: blueviolet;
+    }
+    section#cursos button.trez{
+        color: pink;
+    }
+    section#cursos button.qua{
+        color: rgb(20, 238, 20);
+    }
+
+    .link-curso {
+        max-height: 0;
+  overflow: hidden;
+  display: block;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding: 0;
+  opacity: 0;
+      
+      }
+      .link-curso.show {
+        max-height: 40px; /* altura suficiente para o link aparecer */
+        padding: 5px 0;
+        opacity: 1;
+      }
+      
 
 
 

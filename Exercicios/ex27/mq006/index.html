@@ -42,14 +42,37 @@
         </section>
 
         <section id="cursos">
-            <button>Java</button>
-            <button>JavaScript</button>
-            <button>Front-and</button>
-            <button>Banco de dados</button>
-            <button>C++</button>
-            <button>Design</button>
-            <button>Design</button>
-            <button>Inteligência artificial(IA)</button>
+            
+            <div class="curso"><button class="um">Java</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
+
+            <div class="curso"><button class="dois">JavaScript</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
+
+            <div class="curso"><button class="trez">Front-and</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
+
+            <div class="curso"><button class="qua">Banco de dados</button>
+                <a href="#" class="link-curso">Fazer curso</a></div>
+
+            <div class="curso"><button class="um">C++</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
+
+            <div class="curso"><button class="dois">Design</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
+
+            <div class="curso"><button class="trez">Design</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
+
+            <div class="curso"><button class="qua">Inteligência artificial(IA)</button>
+                <a href="#" class="link-curso">Fazer curso</a>
+            </div>
 
         </section>
       
@@ -65,6 +88,16 @@
 
 
         }
+
+        const botoes = document.querySelectorAll("#cursos .curso button");
+
+botoes.forEach(botao => {
+  botao.addEventListener("click", () => {
+    const link = botao.nextElementSibling;
+    link.classList.toggle("show");
+  });
+});
+
     </script>
     
 </body>
