@@ -235,6 +235,25 @@ section.imagem{
       text-align: center;
       font-family: "Inter", sans-serif;
     }
+
+    .caixas-scroll {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      scroll-snap-type: x mandatory;
+      padding: 10px 0;
+    }
+
+    /* Esconde a barra no Chrome */
+.caixas-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.caixas-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+  
     
     .caixas {
       box-shadow: 3px 3px 3px black;
@@ -247,10 +266,14 @@ section.imagem{
       overflow: hidden;
 
        /* Aqui vem o Flex */
-  display: flex;
-  flex-direction: column;
+       flex: 0 0 80vw; /* Fixa o tamanho e permite rolagem lateral */
+       margin: 0; 
+      
+       scroll-snap-align: start; /* alinha ao rolar */
+flex-direction: column;
   justify-content: space-between;
   padding: 10px;
+
     }
     
     .imagem-fundo {
@@ -259,25 +282,38 @@ section.imagem{
       background-size: cover;
       background-position: center;
     }
+    .imagem-fundo#phyton{
+      background-image: url(../imagens/pyt.png);
+    }
     
-    .caixas p.tipo {
-      font-size: 1em;
+   .caixas p.tipo {
+      font-size: 0.7em;
       text-align: center;
       color: rgb(0, 66, 128);
       background-color: rgba(10, 168, 216, 0.479);
-      border-radius: 10px;
+      border-radius: 0px 10px;
       display: inline-block;
       padding: 5px;
     
     }
  
+    .conteudo {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+    }
+    
     
     .caixas p.normal {
-      margin-top: 10px;
+       
       color: rgb(247, 243, 243);
       text-align: center;
       padding-bottom: 10px;
       font-family: "Inter", sans-serif;
+      padding-top: 30px;
+      
     }
     .caixas a{
       font-family: "Inter", sans-serif;
@@ -285,10 +321,23 @@ section.imagem{
       text-decoration: none;
       background-color: rgb(229, 255, 0);
       display: block;
+   
       text-align: center ;
       padding: 10px;
+      height: 100%;
+      margin-top:60px;
+      width: 100%;
+     
+
+    
+      
      
     }
+
+    /*-------------------------------------------------*/
+   
+  
+    
     
 
 
