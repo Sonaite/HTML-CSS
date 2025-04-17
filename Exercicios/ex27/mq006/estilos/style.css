@@ -417,40 +417,62 @@ flex-direction: column;
       display: flex;
       justify-content: center; /* Centraliza horizontalmente */
       align-items: center;     /* Alinha verticalmente */
-      gap: 20px;               /* Espaço entre imagem e texto */
-      padding: 20px;
+      gap: 40px;               /* Espaço entre imagem e texto */
+      padding: 30px;
       flex-wrap: wrap;         /* Caso a tela fique pequena */
       background-color: #110f00f1;
+    
     }
     #nome{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+  
+    #sobre-mim {
+      display: flex;
+    
+      justify-content: flex-start; /* alinha o conteúdo à esquerda */
+      margin-left: 0; /* garante que não tenha espaçamento lateral */
+      
+      
+     
+    }
+   
+    
    
   
     .foto-nome {
       display: flex;
       flex-direction: column; /* deixa imagem em cima e nome embaixo */
       align-items: center;     /* centraliza tudo horizontalmente */
-      text-align: center;
+     
+    
      
     }
     .foto-nome img{
       width: 100px;
       border-radius: 50%;
+      
+      
     }
     
     #sobre-mim p{
       
-      left: 40px;
-     width: 300px;
+     
+    
      text-align: justify;
      text-indent: 20px;
      color: white;
      font-family: Arial, Helvetica, sans-serif;
+     
     
     }
+    .descricao{
+      width: 500px;
+      
+    }
+   
     footer{
      background-color: #031d02;
      color: white;
