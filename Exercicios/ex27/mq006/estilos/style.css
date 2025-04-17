@@ -236,6 +236,22 @@ section.imagem{
       font-family: "Inter", sans-serif;
     }
 
+   
+    .pesquisa label{
+      color: rgba(255, 255, 255, 0.521);
+     display: block;
+     margin-bottom: 8px;
+    }
+    .pesquisa input{
+      background-color: #110f007c;
+      height: 1px;
+      width: 90vw;
+      color: rgba(255, 255, 255, 0.418);
+      
+    }
+
+    
+
     .caixas-scroll {
       display: flex;
       overflow-x: auto;
@@ -340,6 +356,57 @@ flex-direction: column;
       width: 100%;
    
     }
+
+    /*------------------------*/
+    #contato {
+      background-color: rgba(1, 29, 1, 0.9);
+      color: white;
+      padding: 20px;
+      font-family: "Chakra Petch", sans-serif;
+      text-align: center;
+    }
+    
+    #contato h2 {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      color: rgb(206, 255, 177);
+      text-decoration: underline;
+
+    }
+    
+    #formulario {
+      display: none;
+      margin-top: 20px;
+ 
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 50%;
+      transform: translate(-50%);
+      margin-bottom: 20px;
+      
+  
+    
+    
+    }
+     button:hover {
+      background-color: #e0c200;
+    }
+/*------------------------------------------------*/    
 
     #sobre-mim{
       display: flex;

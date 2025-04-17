@@ -92,12 +92,19 @@
         <section class="texto">
             <p><p>Além dos cursos gratuitos, oferecemos formações completas e exclusivas para quem deseja ir ainda mais longe. Descubra nossos cursos premium e invista no seu crescimento com qualidade,</p></p>
         </section>
-
+                 
+        <section class="pesquisa">
+         
+            <p><label for="ipesq">Pesquisar por curso</label></p>
+             <input type="text" name="pesq" id="ipesq"  placeholder="Pesquisar">
+            
+          
+        </section>
         
         <div class="caixas-scroll">
             <div class="caixas">
               <div class="imagem-fundo">
-                <p class="tipo" id="pro">Programação iniciante</p>
+                <p class="tipo" id="programação">Programação iniciante</p>
               </div>
               <div class="conteudo">
                   <p class="normal">
@@ -115,7 +122,7 @@
           
             <!-- Segunda caixa idêntica -->
             <div class="caixas">
-              <div class="imagem-fundo" id="phyton">
+              <div class="imagem-fundo" id="css">
                 <p class="tipo">Python Básico</p>
               </div>
               <p class="normal">
@@ -131,7 +138,7 @@
             </div>
 
             <div class="caixas">
-                <div class="imagem-fundo" id="c+">
+                <div class="imagem-fundo" id="ccharp">
                   <p class="tipo">Python Básico</p>
                 </div>
                 <p class="normal">
@@ -147,7 +154,7 @@
               </div>
              
               <div class="caixas">
-                <div class="imagem-fundo" id="phyton">
+                <div class="imagem-fundo" id="html">
                   <p class="tipo">Python Básico</p>
                 </div>
                 <p class="normal">
@@ -183,11 +190,19 @@
           
           </div>
 
+          <h2 id="contato" onclick="mostrarFormulario()">Dúvidas? Fale conosco</h2>
+
+          <div id="formulario">
+            <input type="text" id="nome" placeholder="Seu nome">
+            <textarea id="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+            <button onclick="enviarParaWhatsApp()">Enviar no WhatsApp</button>
+          </div>
           
           
                
             <section id="sobre-mim">
-                <img src="imagens/myft.jpg" alt="minha foto">
+                <img src="imagens/myft.jpg" alt="minha foto"
+                >
                 
                 <p id="nome">Sonayte Santos</p>
                 <p>
@@ -228,6 +243,45 @@ botoes.forEach(botao => {
     link.classList.toggle("show");
   });
 });
+
+
+document.getElementById('ipesq').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      const valor = this.value.toLowerCase();
+
+      // Procurar o curso
+      if (valor.includes('java')) {
+        document.getElementById('java').scrollIntoView({ behavior: 'smooth' });
+      } else if (valor.includes('html')) {
+        document.getElementById('html').scrollIntoView({ behavior: 'smooth' });
+      } else if (valor.includes('ccharp')) {
+        document.getElementById('ccharp').scrollIntoView({ behavior: 'smooth' });
+      } else {
+        alert('Curso não encontrado.');
+      }
+    }
+  });
+
+function mostrarFormulario() {
+      const form = document.getElementById("formulario");
+     if(form.style.display == "block") {
+      form.style.display = 'none'
+     }else{
+      form.style.display='block'
+     }
+    }
+
+function enviarWhatsApp() {
+    const nome = document.getElementById('nome').value;
+    const mensagem = document.getElementById('mensagem').value;
+
+    const texto = `Olá! Meu nome é ${nome}`;
+    const telefone = "5579998278468"; // com DDI do Brasil (55)
+
+    const url = `https://wa.me/${telefone}?text=${texto}`;
+    window.open(url, '_blank');
+  }
 
     </script>
     
