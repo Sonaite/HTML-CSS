@@ -429,14 +429,18 @@ flex-direction: column;
     }
    
   
-   #sobre-mim img{
-    margin-top: 20px;
-      
-      width: 90px;
-      border-radius: 40%;
-    
+    .foto-nome {
+      display: flex;
+      flex-direction: column; /* deixa imagem em cima e nome embaixo */
+      align-items: center;     /* centraliza tudo horizontalmente */
+      text-align: center;
      
     }
+    .foto-nome img{
+      width: 100px;
+      border-radius: 50%;
+    }
+    
     #sobre-mim p{
       
       left: 40px;
