@@ -36,7 +36,9 @@
     
 
     main, header{
-        width: 768px;
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto; /* centraliza */
      }
      section#cursos{
         display: flex;
