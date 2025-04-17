@@ -1,5 +1,7 @@
 @charset "UTF-8";
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px ) {
+
+  
     span#burguer{
        display: none;
         
@@ -33,7 +35,7 @@
     }
     
 
-    main{
+    main, header{
         width: 768px;
      }
      section#cursos{
@@ -98,7 +100,7 @@
       }
     
       .caixas {
-        width: 100%; /* cada item ocupa a largura da coluna */
+        width: 90%; /* cada item ocupa a largura da coluna */
         flex: unset; /* cancela o flex usado antes */
         scroll-snap-align: unset;
       }
