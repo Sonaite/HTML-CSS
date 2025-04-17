@@ -164,6 +164,9 @@ section.imagem{
         border-radius: 20px 5px 20px 5px;
 
     }
+    .curso p{
+      display: none;
+    }
     /*cores dos nomes dos botoes*/
     section#cursos button.um{
         color: rgb(199, 250, 13);

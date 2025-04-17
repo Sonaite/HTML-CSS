@@ -1,1 +1,126 @@
 @charset "UTF-8";
+@media screen and (min-width: 768px){
+    span#burguer{
+       display: none;
+        
+       
+     }
+     menu{
+        display: block;
+        
+
+     }
+
+
+     menu > ul > li {
+       
+        display: inline-block;
+        margin-right: 10px;
+      
+       
+    }
+    menu ul {
+       
+       display: inline-block;
+      
+  
+      
+       
+    }
+    menu > ul > li > a{
+        border-top: none;
+        
+    }
+    
+
+    main{
+        width: 768px;
+     }
+     section#cursos{
+        display: flex;
+  flex-wrap: wrap; /* permite quebra de linha */
+  gap: 10px; /* espaço entre os itens */
+  justify-content: flex-start; /* alinha à esquerda */
+  padding: 10px;
+  justify-content: center; /* centraliza as caixas no meio */
+  
+        
+     }
+
+  
+     .curso p{
+        display: block;
+        color: white;
+        margin-top: 5px;
+        text-transform: lowercase;
+
+        
+      }
+
+       /* Envolve os dois elementos numa "linha" */
+  iframe, #grates {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  iframe {
+    width: 48%; /* ou ajuste como quiser */
+    max-width: 480px;
+    margin-left: 2%; /* espaço entre eles */
+  }
+
+  #grates {
+    width: 48%;
+   
+    text-align: left;
+    text-align: justify;
+    margin-left: 4px;
+  }
+
+  #grates a {
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .pesquisa label{
+    margin-left: 10px;
+  }
+  .pesquisa input{
+    width: 48%;
+    margin-left: 10px;
+  }
+  
+    .caixas-scroll {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Duas por linha */
+        gap: 20px;
+        overflow-x: unset; /* remove rolagem lateral */
+        padding: 10px;
+      }
+    
+      .caixas {
+        width: 100%; /* cada item ocupa a largura da coluna */
+        flex: unset; /* cancela o flex usado antes */
+        scroll-snap-align: unset;
+      }
+  
+      
+      #formulario {
+        text-align: center; /* Centraliza o conteúdo dentro */
+        
+      }
+      
+      #formulario input,
+      #formulario textarea{
+        width: 300px;
+        margin: 10px auto; /* Centraliza horizontalmente */
+        display: block; /* Faz o input/textarea ocupar uma linha e respeitar o margin auto */
+      }
+      #formulario button{
+          margin-left: 160px;
+
+      }
+      
+   
+  
+
+}
