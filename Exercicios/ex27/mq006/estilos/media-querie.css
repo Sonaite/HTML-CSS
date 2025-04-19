@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 768px ) { 
+@media screen and (min-width: 768px )  { 
 
   
     span#burguer{
@@ -128,6 +128,20 @@
   
       
         }
+
+        @media screen and (min-width: 1024) and(max-width: 1440){
+
+          main, header {
+            max-width: 1024px;
+            width: 100%;
+            margin: 0 auto;
+        }
+          
+    
+    }
+         
+          
+        
       
       
    
