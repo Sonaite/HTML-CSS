@@ -36,7 +36,7 @@
     
 
     main, header{
-        max-width: 768px;
+      
         width: 100%;
         margin: 0 auto; /* centraliza */
      }
@@ -124,21 +124,137 @@
 
       }
 
+    
+
  
   
       
         }
+        @media screen and (min-width:1024px) {
 
-        @media screen and (min-width: 1024) and(max-width: 1440){
-
-          main, header {
-            max-width: 1024px;
-            width: 100%;
-            margin: 0 auto;
+          header h1{
+            padding-top: 20px;
+            font-size: 2.1em;
+          }
+      menu > ul > li >  a{
+          font-size: 1.8em;
         }
+        menu a:hover{
+          color: greenyellow;
+        }
+
+        section#img p{
+          margin-top: 40px;
+          max-width: 700px;
+         padding-top: 40px;
+          height: 160px;
+          display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    
+        }
+        section.texto p{
+          font-size: 1.5em;
+        }
+        
+
+        .curso {
+          display: grid;
+          grid-template-columns: repeat(2, 2fr); /* 4 colunas para a tela maior */
+          gap: 20px;
+          padding: 20px;
+        }
+        
+        /* Estilos das caixas de cursos */
+        .curso {
+          position: relative;
+          border-radius: 8px;
+          overflow: hidden;
+          background-color: #041d0e; /* Cor de fundo das caixas */
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+          display: flex;              /* Flexbox na caixa */
+          justify-content: center;    /* Alinha horizontalmente no centro */
+          align-items: center;        /* Alinha verticalmente no centro */
+          width: 400px;
+      
+        }
+        section#cursos button{
+
+
+        
+        }
+        
+        .curso button {
+     
+          
+          background-color: #0073e6; /* Cor do botão */
+          color: white;
+          border: none;
+          text-align: center;
+          padding: 20px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.2em;
+        }
+
+        .curso button p {
+          margin-top: 10px;
+          font-size: 1em;
+        }
+        
+        .link-curso {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #fff;
+          padding: 10px 20px;
+          border-radius: 20px;
+          font-weight: bold;
+          color: #0073e6;
+          text-decoration: none;
+          transition: background-color 0.3s;
+        }
+        
+        .link-curso:hover {
+          background-color: #0073e6;
+          color: white;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 1024px) {
+          #cursos {
+            grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+          }
+        }
+        
+        @media (max-width: 600px) {
+          #cursos {
+            grid-template-columns: 1fr; /* 1 coluna em telas pequenas */
+          }
+        }
+    
+    
+      
+   
+        
+      
+     
+          
+        }
+
+        
+
+
+     
           
     
-    }
+    
          
           
         
