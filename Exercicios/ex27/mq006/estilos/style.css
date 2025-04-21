@@ -86,7 +86,7 @@ section#img p{
     font-weight: 800;
    
     background-color: rgba(0, 0, 0, 0.541);
-    text-shadow: 9px 9px 9px black;
+    text-shadow: 3px 3px 3px black;
     text-align: center;
   
     position: absolute;
@@ -369,6 +369,7 @@ flex-direction: column;
       padding: 20px;
       font-family: "Chakra Petch", sans-serif;
       text-align: center;
+      cursor: pointer;
     }
     
     #contato h2 {
@@ -391,6 +392,8 @@ flex-direction: column;
       margin-bottom: 10px;
       border-radius: 5px;
       border: 1px solid #ccc;
+      background-color: rgba(0, 0, 0, 0.507);
+      color: white;
     }
 
     button {
