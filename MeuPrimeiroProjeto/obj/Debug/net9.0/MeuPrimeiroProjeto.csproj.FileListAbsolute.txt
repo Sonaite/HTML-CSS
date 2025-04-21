@@ -1,0 +1,15 @@
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.exe
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.deps.json
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.runtimeconfig.json
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.dll
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\bin\Debug\net9.0\MeuPrimeiroProjeto.pdb
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.AssemblyInfo.cs
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.sourcelink.json
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.dll
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\refint\MeuPrimeiroProjeto.dll
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.pdb
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\MeuPrimeiroProjeto.genruntimeconfig.cache
+C:\Users\Sonayte\Documents\Estudos\HTML-CSS\MeuPrimeiroProjeto\obj\Debug\net9.0\ref\MeuPrimeiroProjeto.dll
