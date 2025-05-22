@@ -353,16 +353,22 @@ function mostrarFormulario() {
      }
     }
 
-function enviarWhatsApp() {
-    const nome = document.getElementById('nome').value;
-    const mensagem = document.getElementById('mensagem').value;
+function enviarParaWhatsApp() {
+  const nome = document.getElementById('nome').value;
+  const mensagem = document.getElementById('mensagem').value;
 
-    const texto = `Olá! Meu nome é ${nome}`;
-    const telefone = "5579998278468"; // com DDI do Brasil (55)
+  // Inclui a quebra de linha entre as partes
+  const textoCompleto = `Olá! Meu nome é ${nome}.\n${mensagem}`;
 
-    const url = `https://wa.me/${telefone}?text=${texto}`;
-    window.open(url, '_blank');
-  }
+  // Codifica tudo para a URL
+  const textoCodificado = encodeURIComponent(textoCompleto);
+
+  const telefone = "5579998278468";
+  const url = `https://wa.me/${telefone}?text=${textoCodificado}`;
+  
+  window.open(url, '_blank');
+}
+
 
     </script>
     

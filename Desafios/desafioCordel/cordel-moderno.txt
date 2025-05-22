@@ -1,67 +1,51 @@
-Cordel Moderno
-Por Milton Duarte
-[SITE: https://www.recantodasletras.com.br/poesias/3186743]
+Conceito:
 
-Estou ficando cansado
-Da tal tecnologia
-Só se fala por e-mail
-Mensagem curta e fria
-Twitter e Facebook
-Antes que eu caduque
-Vou dizer tudo em poesia.
 
-//---
+Cuputação em nuvem:
 
-Não é mais como era antes
-É tudo abreviado
-"Você" só tem duas letras
-O "O" e o "E" foi riscado
-Para declarar o amor
-Basta botar uma flor
-E um coração desenhado.
+ 1.
+Acesso sob demanda, ou seja, os usuários podem ativar e configurar recursos computacionais conforme a necessidade, de forma automática e imediata, sem a necessidade de interação humana com o provedor.
 
-//---
+2.
+Todos os serviços em nuvem são acessados remotamente, por meio da internet.
 
-Arroba agora não pesa
-É parte de um endereço
-Ponto final nem se usa
-Ou vai até no começo
-Agora é .com
-Se o saite é muito bom
-Ele vale um alto preço.
+3.
+"O conceito de resource pooling, ou bolsão de recursos, refere-se ao compartilhamento inteligente de recursos físicos e virtuais entre múltiplos usuários. O provedor organiza e distribui automaticamente esses recursos com base na demanda, garantindo eficiência e otimização sem comprometer a segurança ou o desempenho."
 
-Pra piorar a liguagem
-O emoticom é um risco
-Tem símbolo para tudo
-Ponto e vírgula e um asterisco
-Um beijo significa
-Pra entender como fica
-Decifre esse rabisco.
+4.
+"A nuvem também é marcada pela sua elasticidade. Isso significa que é possível expandir ou reduzir os recursos computacionais de forma rápida, conforme o volume de demanda. Essa flexibilidade é essencial em ambientes que sofrem variações — como e-commerces ou serviços de streaming em épocas de pico."
 
-//---
+5.
+"Por fim, temos o modelo de pagamento sob medida. A computação em nuvem segue a lógica do 'pay-per-use': o usuário paga somente pelos recursos efetivamente utilizados
 
-Tenho saudade das cartas
-Escritas com a própria mão
-Mandava no mês de Junho
-Só chegava no Verão
-Mas matava a saudade
-Era texto de verdade
-Nas linhas do coração.
 
-//---
++++++++++++++++++++++++++++++++++++++++++++++++++++
+🔹 Infraestrutura como Serviço (IaaS)
 
-Agora, escrevo e envio
-Chegando na mesma hora
-Mas quando vou prosear
-A pessoa foi embora
-Abriu outro aplicativo
-O mundo ficou cativo
-Da tecnologia do agora.
+"O IaaS oferece a estrutura básica, como servidores e armazenamento, de forma virtual. É como alugar uma infraestrutura, mas quem cuida do sistema, segurança e aplicações é o cliente."
 
-Felizmente, pra orar
-Não precisa de internet
-Deus escuta todo mundo
-Se quiser, faça esse teste
-Dois pontos são dois joelhos
-Seus lábios são aparelhos
-Deixe que Deus interprete.
+🔹 Plataforma como Serviço (PaaS)
+
+"O PaaS vai além: fornece a infraestrutura e a plataforma para desenvolvimento, como sistemas operacionais e banco de dados. O cliente se preocupa apenas com o desenvolvimento da aplicação."
+
+🔹 Software como Serviço (SaaS)
+
+"Já o SaaS entrega o software pronto para uso, acessado pela internet. O provedor cuida de tudo: servidor, segurança, atualizações — e o usuário só usa."
+
++++++++++++++++++++++++++++++++++++++++++++
+Explicação imagem:
+
+"Essa imagem mostra como as responsabilidades são divididas entre o cliente e o provedor de nuvem, de acordo com o modelo escolhido.
+
+Aqui do lado direito temos os quatro modelos: o último é o On-Premises, que representa quando a empresa cuida de tudo por conta própria — como num servidor local.
+
+Quanto mais à esquerda a gente vai — do IaaS até o SaaS — mais coisas o provedor da nuvem assume.
+
+No IaaS, por exemplo, o provedor cuida da parte física e da rede, mas o sistema operacional, aplicações e dados ainda são responsabilidade do cliente.
+
+Já no PaaS, o cliente só precisa se preocupar com os dados e o desenvolvimento da aplicação.
+
+E no SaaS, o provedor cuida praticamente de tudo. O cliente só acessa e usa o software, como no caso do Gmail ou Microsoft 365.
+
+As cores ajudam a entender: azul claro é o provedor, azul escuro é o cliente, e esse azul com listras mostra quando a responsabilidade é compartilhada."
+
